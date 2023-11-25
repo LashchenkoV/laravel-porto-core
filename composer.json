@@ -1,0 +1,27 @@
+{
+    "name": "lashchenkov/laravel-porto-core",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "LashchenkoV\\Porto\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lashchenko V.",
+            "email": "lashenko.vitek@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0",
+        "spatie/laravel-data": "^3.9"
+    },
+    "require-dev": {
+        "symplify/easy-coding-standard": "^10.3",
+        "vimeo/psalm": "^5.1",
+        "phpunit/phpunit": "^10.3"
+    }
+}
